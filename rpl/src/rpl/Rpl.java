@@ -29,6 +29,16 @@ public class Rpl {
         for (int i = 0; i < n; i++) {
             System.out.print(fib[i] +  " ");
         }
+        
+        static int jumlahderet (int array[]){
+
+        int jumlah=0;
+        for (int i=0; i < array.length;i++)
+        {
+            jumlah+=array[i];
+        }
+
+        return jumlah;    } 
     }
     
 }
